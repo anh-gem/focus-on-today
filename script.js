@@ -35,6 +35,7 @@ checkBoxList.forEach((checkbox) => {
             progress.innerText = `${i}/3`;
             }
             }
+            localStorage.setItem('allGoals',JSON.stringify(allGoals));
         }
         else{
             const warn = document.getElementById("warning") 
