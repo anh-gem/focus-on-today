@@ -82,6 +82,7 @@ p {
     align-items: center;
     align-content: center;
     visibility: hidden;
+    transition: width 0.2s ease-in-out;
 }
 
 .warning {
@@ -131,6 +132,7 @@ p {
     border-width: 1px;
     border-style:none ;
     width: 100%;
+    background-color: transparent;
 }
 
 .goalText:focus{
