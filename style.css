@@ -177,3 +177,23 @@ svg{
     display: none;
     margin-left: 3px;
 }
+
+@media (max-width: 400px) {
+    .container {
+        margin-top: 300px;
+    }
+    .content {
+        width: 319px;
+        justify-content: center;
+    }
+    .goal{
+        width: 225px;
+        justify-content: center;
+    }
+    .heading{
+        font-size: 2rem ;
+    }
+    .custom-checkbox{
+        width: 24px;
+    }
+}
